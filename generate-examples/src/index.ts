@@ -228,7 +228,7 @@ async function processExampleBundle(exampleBundleInfo: BundleInfo): Promise<{ fh
 
   const exampleQrCodes: string[] = await Promise.all(
     qrSet.map((qrSegments): Promise<string> => new Promise((resolve, reject) =>
-      QrCode.toString(qrSegments, { type: 'svg', errorCorrectionLevel: 'low' }, function (err: any, result: string) {
+      QrCode.toString(qrSegments, { type: 'svg', errorCorrectionLevel: 'low', version: 22 }, function (err: any, result: string) {
         if (err) return reject(err);
         resolve(result as string);
       })
