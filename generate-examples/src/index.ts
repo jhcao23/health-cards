@@ -15,10 +15,6 @@ interface BundleInfo {
   types: string[];
 }
 
-// original 2: 00 01
-// 8 immunizations
-// 10 imm
-// 12 imm
 const exampleBundleInfo: BundleInfo[] = [
   // 00
   {url: 'https://raw.githubusercontent.com/HL7/fhir-shc-vaccination-ig/master/examples/Scenario1Bundle.json', issuerIndex: 0, types: [
@@ -40,13 +36,18 @@ const exampleBundleInfo: BundleInfo[] = [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
-  // 05 -> 11 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/e5d6968beb8a722657825d74e3eb0d28/raw/63e516973858b9ece6c8994919d8d81757ffc236/11imm.json', issuerIndex: 2, types: [
+  // 04 -> 11 imm
+  {url: 'https://gist.githubusercontent.com/jhcao23/e5d6968beb8a722657825d74e3eb0d28/raw/a5776dc307a05ddc340d171c571dd46bdcdaecb2/11imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
-  // 12 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/36d7e3d03656e55204e07dfb4a9e2197/raw/1f9f8cf4cd85337e4e093dde5d59fd45112ae60c/12imm.json', issuerIndex: 2, types: [
+  // 05 -> 12 imm
+  {url: 'https://gist.githubusercontent.com/jhcao23/36d7e3d03656e55204e07dfb4a9e2197/raw/ad0b357e8331d26ea8730129930b6560fc2528c8/12imm.json', issuerIndex: 2, types: [
+      'https://smarthealth.cards#immunization',
+      'https://smarthealth.cards#covid19',
+  ]},
+  // 06 -> 2 imm
+  {url: 'https://gist.githubusercontent.com/jhcao23/86fa0fef68fc14f294cc7a291c626479/raw/0c53021b59c1fc467d7544bcd2792e254b381b92/2imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]}
