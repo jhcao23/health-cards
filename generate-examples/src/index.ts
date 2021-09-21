@@ -27,12 +27,12 @@ const exampleBundleInfo: BundleInfo[] = [
     'https://smarthealth.cards#covid19',
   ]},
   // 02 -> 8 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/2aaf18e2d89abfe4e34ce216cc66dd37/raw/53e3b1f3775067762d962a3df6746928aa18a0d4/08imm.json', issuerIndex: 2, types: [
+  {url: 'https://gist.githubusercontent.com/jhcao23/2aaf18e2d89abfe4e34ce216cc66dd37/raw/261ca931b3b7c650662152c8ce5df3bed7bed929/08imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
   // 03 -> 10 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/708ae6545d0b1ce8393d8e000e872f00/raw/59e9876e53e0a411738ff1f3155a77f390b756c3/10imm.json', issuerIndex: 2, types: [
+  {url: 'https://gist.githubusercontent.com/jhcao23/708ae6545d0b1ce8393d8e000e872f00/raw/9411b17d4f72603dda1b6c6fdf8c385de4cad063/10imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
