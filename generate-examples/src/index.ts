@@ -50,6 +50,11 @@ const exampleBundleInfo: BundleInfo[] = [
   {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/2imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
+  ]},
+  // 07 -> 6 imm
+  {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/6imm.json', issuerIndex: 2, types: [
+      'https://smarthealth.cards#immunization',
+      'https://smarthealth.cards#covid19',
   ]}
 ];
 

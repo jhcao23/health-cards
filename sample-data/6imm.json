@@ -1,0 +1,229 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "resource:0",
+            "resource": {
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "Wolfeschlegelsteinhausenbergerdorffwelchevoraltern",
+                        "given": ["AdolphBlaineCharlesDavidEarl", "FrederickGeraldHubertI"]
+                    }
+                ],
+                "birthDate": "1987-06-25"
+            }
+        },
+        {
+            "fullUrl": "resource:1",
+            "resource": {
+                "resourceType": "Immunization",
+                "meta": {
+                    "security": [
+                        {
+                            "system": "https://smarthealth.cards/ial",
+                            "code": "IAL1.2"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "208"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "resource:0"
+                },
+                "occurrenceDateTime": "2021-01-18",
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Keck Hospital of USC - Los Angeles (formerly USC University Hospital)"
+                        }
+                    }
+                ],
+                "lotNumber": "1234567"
+            }
+        },
+        {
+            "fullUrl": "resource:2",
+            "resource": {
+                "resourceType": "Immunization",
+                "meta": {
+                    "security": [
+                        {
+                            "system": "https://smarthealth.cards/ial",
+                            "code": "IAL1.2"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "207"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "resource:0"
+                },
+                "occurrenceDateTime": "2021-02-19",
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Los Angeles County-USC Medical Center – Los Angeles"
+                        }
+                    }
+                ],
+                "lotNumber": "3334444"
+            }
+        },
+        {
+            "fullUrl": "resource:3",
+            "resource": {
+                "resourceType": "Immunization",
+                "meta": {
+                    "security": [
+                        {
+                            "system": "https://smarthealth.cards/ial",
+                            "code": "IAL1.2"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "210"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "resource:0"
+                },
+                "occurrenceDateTime": "2021-05-20",
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Aurora Las Encinas Hospital – Pasadena"
+                        }
+                    }
+                ],
+                "lotNumber": "3456912"
+            }
+        },
+        {
+            "fullUrl": "resource:4",
+            "resource": {
+                "resourceType": "Immunization",
+                "meta": {
+                    "security": [
+                        {
+                            "system": "https://smarthealth.cards/ial",
+                            "code": "IAL1.2"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "212"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "resource:0"
+                },
+                "occurrenceDateTime": "2021-04-21",
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Pico Rivera Medical Center – Pico Rivera"
+                        }
+                    }
+                ],
+                "lotNumber": "4570123"
+            }
+        },
+        {
+            "fullUrl": "resource:5",
+            "resource": {
+                "resourceType": "Immunization",
+                "meta": {
+                    "security": [
+                        {
+                            "system": "https://smarthealth.cards/ial",
+                            "code": "IAL1.2"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "212"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "resource:0"
+                },
+                "occurrenceDateTime": "2021-06-22",
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Burbank Community Hospital – Burbank"
+                        }
+                    }
+                ],
+                "lotNumber": "1257134"
+            }
+        },
+        {
+            "fullUrl": "resource:6",
+            "resource": {
+                "resourceType": "Immunization",
+                "meta": {
+                    "security": [
+                        {
+                            "system": "https://smarthealth.cards/ial",
+                            "code": "IAL1.2"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "207"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "resource:0"
+                },
+                "occurrenceDateTime": "2021-07-23",
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Promise Hospital of East Huntington – San Francisco"
+                        }
+                    }
+                ],
+                "lotNumber": "1223457"
+            }
+        }
+    ]
+}
