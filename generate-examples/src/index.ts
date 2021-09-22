@@ -27,27 +27,27 @@ const exampleBundleInfo: BundleInfo[] = [
     'https://smarthealth.cards#covid19',
   ]},
   // 02 -> 8 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/2aaf18e2d89abfe4e34ce216cc66dd37/raw/261ca931b3b7c650662152c8ce5df3bed7bed929/08imm.json', issuerIndex: 2, types: [
+  {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/8imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
   // 03 -> 10 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/708ae6545d0b1ce8393d8e000e872f00/raw/9411b17d4f72603dda1b6c6fdf8c385de4cad063/10imm.json', issuerIndex: 2, types: [
+  {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/10imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
   // 04 -> 11 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/e5d6968beb8a722657825d74e3eb0d28/raw/a5776dc307a05ddc340d171c571dd46bdcdaecb2/11imm.json', issuerIndex: 2, types: [
+  {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/11imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
   // 05 -> 12 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/36d7e3d03656e55204e07dfb4a9e2197/raw/ad0b357e8331d26ea8730129930b6560fc2528c8/12imm.json', issuerIndex: 2, types: [
+  {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/12imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]},
   // 06 -> 2 imm
-  {url: 'https://gist.githubusercontent.com/jhcao23/86fa0fef68fc14f294cc7a291c626479/raw/0c53021b59c1fc467d7544bcd2792e254b381b92/2imm.json', issuerIndex: 2, types: [
+  {url: 'https://raw.githubusercontent.com/jhcao23/health-cards-add-examples/main/sample-data/2imm.json', issuerIndex: 2, types: [
       'https://smarthealth.cards#immunization',
       'https://smarthealth.cards#covid19',
   ]}
